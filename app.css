@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  color: rgba(200, 200, 200, 0.6);
+  background-color: rgb(67, 54, 100);
+  padding: 1em;
+  height: 5vh;
+}
+
+.banner {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  line-height: 3px;
+  font-size: 20px;
+}
+
+.banner > img {
+  display: block;
+  width: 100%;
+}
+
+.banner > h3 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 28px;
+}
+
+.banner > h1 {
+  font-size: 48px;
+}
+
+.banner > button {
+  font-family: "Abhaya Libre", serif;
+  background-color: rgb(20, 20, 20);
+  color: antiquewhite;
+  border: none;
+  padding: 0.4em 1em;
+  font-size: 24px;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgb(67, 54, 100);
+  color: antiquewhite;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em 0;
+}
